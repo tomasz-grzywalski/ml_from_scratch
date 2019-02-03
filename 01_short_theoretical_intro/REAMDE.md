@@ -24,6 +24,7 @@ positive value indicating the function value increases with increased value of "
 we are moving in the other direction)
 4. In point (2) we again calculate the derivative and find out that we overdid and this time we need to move right.
 Because slope is less steep, we move by smaller value than we did last time. Technically: derivative is now a negative
-number so by subtracting it from our current "x" we will actually increase value of "x".
-5. We repeat this procedure until our steps become very small. We how found the value of "x" for which the function
-has minimal value.
+number so by subtracting it from our current "x" we will actually increase value of "x". This way we have moved to point
+(3)
+5. We repeat this procedure until our steps become very small. We arrived at point (4) where derivative is near or 
+equal to zero. We have found the value of "x" for which the function has minimal value.
