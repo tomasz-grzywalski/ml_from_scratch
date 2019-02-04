@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This tutorial aims at explaining how deep neural networks work, starting from most basic math all the way to
-solving real-life problem using convolutional networks.
+This tutorial aims at explaining how deep neural networks are trained, starting from trivial examples
+implemented using basic math all the way to solving real-life problem using deep convolutional networks.
 It is dedicated to anyone who has basic mathematical knowledge and is fluent in Python
 programming (experience in working with NumPy arrays will be very helpful).
 The tutorial consists of 6 parts:
@@ -18,4 +18,5 @@ The tutorial consists of 6 parts:
 ## Requirements
 
 1. Python 2.7 with Theano and Keras packages installed
-2. Data files
+2. Data files:
+* https://drive.google.com/open?id=1pwIqmpiNLdN_DfhJB48uLHVRBYNgzY-o
