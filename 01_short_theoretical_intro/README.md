@@ -8,17 +8,16 @@ we move forward.
 Let's say we have a function y = f(x) and for
 that function we want to find value of parameter "x" for which the function value is minimal.
 
-The algorithm looks like this:
+The algorithm is presented on following graph, where horizontal axis is "x" and vertical represents function value "y":
 
 ![alt text](finding_minimum.png "gradient descent")
 
-1. We start from random point (1).
-2. In this point we check how the value of the function changes in nearest neighborhood of current point "x", this is in 
-fact the definition of a derivative (marked red on the chart). The sign of the derivative tels us in which direction 
-we should go to find the minimum of our function. The absolute value of the derivative (slope of the read line) tells us
-how fast the functions changes in near proximity of our current location and therefore determines by how much do we need
-to move.
-3. The derivative tells us we should move left and since the slope is quite steep, we take a large jump to point (2).
+1. We start by assigning random value to "x", in our example this puts us in position (1).
+2. In this point we check how the value of the function changes in nearest neighborhood of current "x" (marked red on the
+chart). This information is provided by derivative of the function. Sign of the derivative tels us if the function value 
+increases or decreases with increased value of "x". The absolute value of the derivative (slope of the read line) tells us
+how fast the functions changes in near proximity of our current location on "x" axis.
+3. The derivative in point (1) tells us we should move left and since the slope is quite steep, we take a large jump to point (2).
 More technically speaking, we subtracted portion of the derivative from our current value of "x" (the derivative had a
 positive value indicating that the function value increases with increased value of "x", but we want to find the minimum
 so we are moving in the opposite direction)
