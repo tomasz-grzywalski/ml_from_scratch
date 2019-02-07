@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This tutorial aims at explaining how deep neural networks are trained, starting from trivial examples
+This tutorial aims at explaining how deep neural networks work, starting from trivial examples
 implemented using basic math all the way to solving real-life problem using deep convolutional networks.
 It is dedicated to anyone who has basic mathematical knowledge and is fluent in Python
 programming (experience in working with NumPy arrays will be very helpful).
