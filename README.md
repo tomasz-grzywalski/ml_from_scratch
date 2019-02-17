@@ -20,5 +20,5 @@ The tutorial consists of 6 parts:
 1. Python 2.7 with Theano and Keras packages installed
 2. Classical music vs rock music data files (required):
 * https://drive.google.com/open?id=1pwIqmpiNLdN_DfhJB48uLHVRBYNgzY-o
-3. Rock music vs hiphop music data files (optional):
+3. Rock music vs hip-hop music data files (optional):
 * https://drive.google.com/file/d/1G_5OgXM0ynHAj8USdKEb3Qgc29BPG_Z6
